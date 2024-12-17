@@ -1,0 +1,39 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "username": "alice",
+            "password": "password",
+            "role": "user"
+        },
+        {
+            "id": 2,
+            "username": "bob",
+            "password": "password",
+            "role": "user"
+        }
+    ],
+    "projects": [
+        {
+            "id": 1,
+            "name": "Project 1",
+            "completed": false,
+            "assignedUsers": [
+                1
+            ],
+            "tasks": [
+                {
+                    "id": 1,
+                    "name": "Task 1"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Project 2",
+            "completed": false,
+            "assignedUsers": [],
+            "tasks": []
+        }
+    ]
+}
